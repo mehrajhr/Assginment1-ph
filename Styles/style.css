@@ -5,19 +5,49 @@
 }
 body {
   font-family: Fira sans;
+  background-color: #f5f5f5;
 }
 /* shared styles */
-.bg-color {
-  background-color: #f5f5f5;
+.btn {
+  width: 100px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 /* section style */
+section {
+  margin: 24px 130px;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  gap: 24;
+  padding: 24px;
+}
 .section-title {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -38,6 +68,11 @@ body {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+.section-content img {
+  height: 40px;
+  width: 36px;
+  margin-bottom: 25px;
 }
 /* nav styles */
 nav {
@@ -69,6 +104,7 @@ nav button {
   margin: 20px 130px;
   gap: 64;
   padding: 55px 85px 55px 85px;
+  margin-bottom: 50px;
 }
 .banner .banner-content h5 {
   color: rgba(14, 14, 14, 0.5);
@@ -103,4 +139,75 @@ nav button {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   margin-top: 30px;
+}
+
+/* Pillars of "Bangladesh 2.0" section design */
+.pillars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+}
+.pillars .section-content {
+  width: 230px;
+  height: 220px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background: rgb(255, 255, 255);
+}
+
+/* the vision of future section style */
+.vision-p {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+.vision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  padding: 0px;
+}
+.vision .section-content {
+  width: 310px;
+  height: 290px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.vision .section-content-sub {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.vsc-1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+.vsc-2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
+.vsc-3 {
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  background: rgb(247, 235, 207);
+}
+.btn-1 {
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  border: none;
+}
+.btn-2 {
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  border: none;
+}
+.btn-3 {
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  border: none;
 }
