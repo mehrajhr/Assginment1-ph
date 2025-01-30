@@ -19,6 +19,10 @@ body {
   letter-spacing: 0%;
   text-align: center;
 }
+.margin-p {
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
 
 /* section style */
 section {
@@ -158,10 +162,6 @@ nav button {
 }
 
 /* the vision of future section style */
-.vision-p {
-  margin-top: 20px;
-  margin-bottom: 28px;
-}
 .vision {
   display: flex;
   justify-content: space-between;
@@ -210,4 +210,40 @@ nav button {
   border-radius: 8px;
   background: rgb(255, 194, 57);
   border: none;
+}
+
+/* news section desgin */
+.news {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  gap: 28px;
+  padding: 40px;
+  align-items: center;
+}
+.news .news-image {
+  border-radius: 24px;
+}
+.news-headline {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.newsdate {
+  margin-right: 10px;
+}
+.news-des {
+  margin-top: 10px;
+  margin-bottom: 27px;
+}
+.news-button {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
 }
